@@ -7,13 +7,13 @@
 	<meta name="description" content="Aleestar's Homepage'">
 	<meta name="keywords" content="Aleestar">
 	<meta name="author" content="Aleestar">
-	<title>ChenPlus-Personal Homepage</title>
+	<title>Aleestar-Personal Homepage</title>
 	
 	<!-- [ FONT-AWESOME ICON ] -->
 	<link rel="stylesheet" type="text/css" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
 
 	<!-- [ PLUGIN STYLESHEET ] -->
-	<link rel="shortcut icon" type="image/x-icon" href="images/nc-fav.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="https://q1.qlogo.cn/g?b=qq&nk=52110919&s=640">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
@@ -37,11 +37,12 @@
 		</div>
 	</div>
 
-	<!-- [ MAIN-WRAPPER ] -->
+		<!-- [ MAIN-WRAPPER ] -->
 	<div id="main-wrapper">
 
 		<!-- [ PAGE-SECTION ] -->
-		<main id="main" class="background" data-image="images/partical-bg.jpg">
+		<!-- <main id="main" class="background" data-image="https://upyun.aleestar.cn/homePage-bg1.jpg"> -->
+		<main id="main" class="background" data-image="https://upyun.aleestar.cn/homePage-bg1.jpg">
 
 			<!-- [ BACKGROUND-OVERLAY ] -->
 			<div class="overlay" style="background-color: rgba(0,0,0,0.6)"></div>
@@ -130,7 +131,7 @@
 						<!-- [ SOCIAL ICON ] -->
 						<div class="social-icon ac anim fadeInUp s01 delay-0-9s">
 							
-							<a class="icon vhm" target="_blank" href="https://aleestar.cn">
+							<a class="icon vhm" target="_blank" href="https://blog.aleestar.cn">
 								<span class="box"></span>
 								<i class="fa fa-home vhm-item"></i>
 							</a>
@@ -228,5 +229,11 @@ var _hmt = _hmt || [];
 	<!-- [ COMMON SCRIPT ] -->
 	<script src="js/common.js"></script>
 
+	<script>
+		window.onload = function(){
+			var index = Math.ceil(Math.random()*3);
+			document.getElementById("main").style.backgroundImage = "url(https://upyun.aleestar.cn/homePage-bg" + index +".jpg)";
+		}
+	</script>
 </body>
 </html>
