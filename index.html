@@ -230,9 +230,12 @@ var _hmt = _hmt || [];
 	<script src="js/common.js"></script>
 
 	<script>
-		window.onload = function(){
+		function randomBackgroundImage(){
 			var index = Math.ceil(Math.random()*3);
 			document.getElementById("main").style.backgroundImage = "url(https://upyun.aleestar.cn/homePage-bg" + index +".jpg)";
+		}
+		window.onload = function(){
+			setInterval("randomBackgroundImage()", 10000);
 		}
 	</script>
 </body>
